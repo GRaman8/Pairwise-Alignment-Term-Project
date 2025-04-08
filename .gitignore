@@ -1,0 +1,8 @@
+node_modules/
+*.code-workspace
+*.pdf
+*.xlsx
+myenv/
+.env
+*.csv
+.vscode
