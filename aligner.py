@@ -283,9 +283,9 @@ def run_test_cases(scoring, gap_open, gap_extend):
         # Verify score by manual calculation
         verified_score = calculate_alignment_score(alignment1, alignment2, scoring, gap_open, gap_extend)
         if score == verified_score:
-            print(f"✅ Score verification: algorithm score {score} matches calculated score {verified_score}")
+            print(f" Score verification: algorithm score {score} matches calculated score {verified_score}")
         else:
-            print(f"❌ Score mismatch: algorithm score {score} differs from calculated score {verified_score}")
+            print(f"Score mismatch: algorithm score {score} differs from calculated score {verified_score}")
 
 if __name__ == "__main__":
     print("Pairwise Sequence Alignment Tool (with Affine Gap Penalty)")
